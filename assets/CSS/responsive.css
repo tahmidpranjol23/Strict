@@ -1,0 +1,36 @@
+@media (min-width: 320px) and (max-width: 575px){
+    #full_name, #email_addr {
+        width: 290px;
+    }
+    #message {
+        height: 180px;
+        width: 290px;
+    }
+    #sbmt_btn {
+        padding: 7px 29px;
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    footer {
+        padding: 14px 0;
+    }
+    .msg_header h2 {
+        font-size: 30px;
+    }
+    .footer_text p{
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: #999999;
+    }
+    .footer_text,
+    .footer_icon {
+        text-align: center;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){
+    .footer_text p {
+        font-size: 17px;
+    }
+}
